@@ -1,10 +1,9 @@
 {
   "name": "please-hyperclick",
   "main": "./lib/please-hyperclick",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/imranolas/please-hyperclick",
   "license": "MIT",
   "engines": {
