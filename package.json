@@ -1,7 +1,7 @@
 {
   "name": "please-hyperclick",
   "main": "./lib/please-hyperclick",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "keywords": [],
   "repository": "https://github.com/imranolas/please-hyperclick",
