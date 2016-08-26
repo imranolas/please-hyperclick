@@ -1,0 +1,90 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "env": {
+     "browser": true,
+     "es6": true,
+   },
+   "globals": {
+     "process": true,
+     "require": true,
+     "atom": true
+   },
+  "rules": {
+    // Code quality rules
+    "strict": 0,
+    "no-console": 2,
+    "no-extra-parens": 0,
+    "quote-props": [2, "as-needed", {"keywords": true}],
+    "valid-jsdoc": [0, {
+      "requireReturn": false,
+      "requireReturnDescription": false
+    }],
+    "default-case": 2,
+    "guard-for-in": 2,
+    "no-div-regex": 2,
+    "no-else-return": 2,
+    "no-eq-null": 2,
+    "no-floating-decimal": 2,
+    "no-param-reassign": 2,
+    "no-self-compare": 2,
+    "no-void": 2,
+    "radix": 2,
+    "no-undefined": 2,
+    "no-implicit-coercion": 2,
+    "no-useless-call": 2,
+    "no-restricted-globals": [2, "event"],
+
+    // ES6+ specific
+    "arrow-spacing": 2,
+    "constructor-super": 2,
+    "no-this-before-super": 2,
+    "object-shorthand": 2,
+    "prefer-const": 2,
+    "prefer-spread": 2,
+    "no-class-assign": 2,
+    "generator-star-spacing": 0,
+    "no-var": 2,
+
+    // Style rules
+    "camelcase": 0,
+    "new-cap": 0,
+    "quotes": [2, "single", "avoid-escape"],
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "brace-style": [2, "1tbs"],
+    "comma-style": [2, "last"],
+    "comma-dangle": [2, "only-multiline"],
+    "max-nested-callbacks": [2, 5],
+    "no-lonely-if": 2,
+    "no-multiple-empty-lines": [2, {"max": 1}],
+    "no-nested-ternary": 2,
+    "keyword-spacing": [2, {"after": true}],
+    "space-before-blocks": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+    "curly": 2,
+    "object-curly-spacing": [2,"never"],
+    "array-bracket-spacing": [2,"never"],
+    "computed-property-spacing": [2,"never"],
+    "space-in-parens": [2, "never"],
+    "space-unary-ops": [2, {
+      "words": true
+    }],
+    "spaced-comment": [2, "always"],
+    "no-underscore-dangle": 0,
+    "semi": [2, "always"],
+    "linebreak-style": [2, "unix"],
+    "jsx-quotes": [2, "prefer-double"],
+
+
+    //legacy
+    "max-len": [2, 120, 4],
+  }
+}
